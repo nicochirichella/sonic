@@ -1,0 +1,8 @@
+{
+  "conexion": {
+    "tipo": "servidor",
+    "puerto": 8887,
+    "clientes": 1
+  },
+  "modo" : "colaborativo"
+}

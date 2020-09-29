@@ -1,0 +1,3892 @@
+{
+  "logModo": {
+    "modo": "alto"
+  },
+  "ventana": {
+    "dimensiones": {
+      "ancho": 1000,
+      "alto": 800
+    }
+  },
+  "configuracion": {
+    "vel_scroll": 30
+  },
+  "personajes": [
+    {
+      "color": "rojo",
+      "crop": {
+        "xCrop": 0,
+        "yCrop": 0
+      },
+      "dimensiones": {
+        "ancho": 95,
+        "alto": 120
+      },
+      "coordenada": {
+        "x": 200,
+        "y": 545
+      },
+      "index_z": 105
+    },
+    {
+      "color": "verde",
+      "crop": {
+        "xCrop": 0,
+        "yCrop": 0
+      },
+      "dimensiones": {
+        "ancho": 95,
+        "alto": 120
+      },
+      "coordenada": {
+        "x": 300,
+        "y": 545
+      },
+      "index_z": 105
+    },
+    {
+      "color": "verde",
+      "crop": {
+        "xCrop": 0,
+        "yCrop": 0
+      },
+      "dimensiones": {
+        "ancho": 95,
+        "alto": 120
+      },
+      "coordenada": {
+        "x": 400,
+        "y": 545
+      },
+      "index_z": 105
+    },
+    {
+      "color": "verde",
+      "crop": {
+        "xCrop": 0,
+        "yCrop": 0
+      },
+      "dimensiones": {
+        "ancho": 95,
+        "alto": 120
+      },
+      "coordenada": {
+        "x": 500,
+        "y": 545
+      },
+      "index_z": 105
+    }
+  ],
+  "niveles": [
+    {
+      "id": 1,
+      "cantidadMinAnillos": 1,
+      "cantidadMaxAnillos": 1,
+      "cantidadTotalAnillos": 50,
+      "cantidadMinPiedra": 0,
+      "cantidadMaxPiedra": 0,
+      "cantidadTotalPiedra": 10,
+      "cantidadMinCangrejos": 0,
+      "cantidadMaxCangrejos": 0,
+      "cantidadTotalCangrejos": 10,
+      "cantidadMinPece": 0,
+      "cantidadMaxPece": 0,
+      "cantidadTotalPece": 4,
+      "cantidadMinMoscas": 0,
+      "cantidadMaxMoscas": 0,
+      "cantidadTotalMoscas": 10,
+      "cantidadMinPinches": 0,
+      "cantidadMaxPinches": 0,
+      "cantidadTotalPinches": 5,
+      "cantidadMinInvincibilidad": 1,
+      "cantidadMaxInvincibilidad": 1,
+      "cantidadTotalInvincibilidad": 20,
+      "cantidadMinEscudo": 1,
+      "cantidadMaxEscudo": 1,
+      "cantidadTotalEscudo": 20,
+      "cantidadMinBonusAnillo": 1,
+      "cantidadMaxBonusAnillo": 1,
+      "cantidadTotalBonusAnillo": 1,
+      "escenario": {
+        "dimensiones": {
+          "alto": 800,
+          "ancho": 4095
+        },
+        "capas": [
+          {
+            "id": 10000,
+            "index_z": 97,
+            "ruta_imagen": "images/bg.png"
+          },
+          {
+            "id": 200000,
+            "index_z": 96,
+            "ruta_imagen": "images/bg2_small.jpg"
+          }
+        ],
+        "entidades": [
+          {
+            "id": 0,
+            "tipo": "piedra",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 2266,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 1,
+            "tipo": "piedra",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 2178,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 2,
+            "tipo": "piedra",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 1860,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 3,
+            "tipo": "piedra",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 3272,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 4,
+            "tipo": "piedra",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 882,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 5,
+            "tipo": "piedra",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 3173,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 6,
+            "tipo": "piedra",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 736,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 7,
+            "tipo": "piedra",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 2752,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 8,
+            "tipo": "piedra",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 1670,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 9,
+            "tipo": "piedra",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 2038,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 10,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3524,
+              "y": 323
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 11,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3391,
+              "y": 333
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 12,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 529,
+              "y": 314
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 13,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3795,
+              "y": 403
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 14,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2465,
+              "y": 248
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 15,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3216,
+              "y": 206
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 16,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1634,
+              "y": 252
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 17,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2090,
+              "y": 297
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 18,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1782,
+              "y": 416
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 19,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1484,
+              "y": 399
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 20,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 854,
+              "y": 263
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 21,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3033,
+              "y": 256
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 22,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2075,
+              "y": 410
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 23,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2588,
+              "y": 293
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 24,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 479,
+              "y": 535
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 25,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3645,
+              "y": 249
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 26,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 659,
+              "y": 420
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 27,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1932,
+              "y": 251
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 28,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3835,
+              "y": 521
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 29,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2752,
+              "y": 305
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 30,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1183,
+              "y": 518
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 31,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 991,
+              "y": 209
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 32,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2511,
+              "y": 487
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 33,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 722,
+              "y": 251
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 34,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1143,
+              "y": 301
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 35,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1443,
+              "y": 246
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 36,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1384,
+              "y": 540
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 37,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3653,
+              "y": 427
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 38,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2240,
+              "y": 259
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 39,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 962,
+              "y": 388
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 40,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2659,
+              "y": 472
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 41,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1919,
+              "y": 437
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 42,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2304,
+              "y": 391
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 43,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1264,
+              "y": 364
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 44,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3174,
+              "y": 393
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 45,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3519,
+              "y": 201
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 46,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1774,
+              "y": 211
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 47,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3328,
+              "y": 446
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 48,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3818,
+              "y": 270
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 49,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1515,
+              "y": 558
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 50,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3018,
+              "y": 516
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 51,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2853,
+              "y": 561
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 52,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3532,
+              "y": 537
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 53,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2942,
+              "y": 399
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 54,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3988,
+              "y": 348
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 55,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 837,
+              "y": 394
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 56,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 975,
+              "y": 556
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 57,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2888,
+              "y": 225
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 58,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1623,
+              "y": 427
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 59,
+            "tipo": "anillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 403,
+              "y": 420
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 60,
+            "tipo": "pinche",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 2358,
+              "y": 565
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 61,
+            "tipo": "pinche",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3961,
+              "y": 565
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 62,
+            "tipo": "pinche",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 602,
+              "y": 565
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 63,
+            "tipo": "pinche",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3370,
+              "y": 565
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 64,
+            "tipo": "pinche",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 3718,
+              "y": 565
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 65,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 640,
+              "y": 230
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 66,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1789,
+              "y": 339
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 67,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1299,
+              "y": 583
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 68,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3096,
+              "y": 368
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 69,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1302,
+              "y": 224
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 70,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1099,
+              "y": 489
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 71,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3304,
+              "y": 321
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 72,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2516,
+              "y": 416
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 73,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2365,
+              "y": 287
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 74,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1116,
+              "y": 217
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 75,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 4044,
+              "y": 472
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 76,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3450,
+              "y": 247
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 77,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 437,
+              "y": 202
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 78,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2431,
+              "y": 411
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 79,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 404,
+              "y": 542
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 80,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2606,
+              "y": 200
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 81,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2863,
+              "y": 464
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 82,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1762,
+              "y": 564
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 83,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3144,
+              "y": 503
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 84,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2556,
+              "y": 598
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 85,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3546,
+              "y": 453
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 86,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2187,
+              "y": 441
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 87,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 502,
+              "y": 234
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 88,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 554,
+              "y": 448
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 89,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3069,
+              "y": 443
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 90,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3962,
+              "y": 462
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 91,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 442,
+              "y": 318
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 92,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3194,
+              "y": 318
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 93,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3956,
+              "y": 268
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 94,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3374,
+              "y": 216
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 95,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3644,
+              "y": 553
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 96,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1380,
+              "y": 411
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 97,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 644,
+              "y": 341
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 98,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2288,
+              "y": 504
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 99,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1086,
+              "y": 597
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 100,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2781,
+              "y": 215
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 101,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1108,
+              "y": 411
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 102,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2784,
+              "y": 431
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 103,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1940,
+              "y": 572
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 104,
+            "tipo": "escudo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 857,
+              "y": 515
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 500,
+            "tipo": "bonusAnillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 900,
+              "y": 515
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 105,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1075,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 106,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1292,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 107,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1365,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 108,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1169,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 109,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 987,
+              "y": 287
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 110,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1999,
+              "y": 318
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 111,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3808,
+              "y": 425
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 112,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3942,
+              "y": 268
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 113,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2173,
+              "y": 206
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 114,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 699,
+              "y": 250
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 115,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1778,
+              "y": 248
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 116,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1680,
+              "y": 361
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 117,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2514,
+              "y": 399
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 118,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2858,
+              "y": 404
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 119,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 461,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 120,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3540,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 121,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2607,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 122,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2897,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 123,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1946,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 124,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2527,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 125,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1539,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 126,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3620,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 127,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2972,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 128,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 3872,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "cantidadMinAnillos":1,
+      "cantidadMinCangrejos":1,
+      "cantidadMinPece":1,
+      "cantidadMinMoscas":1,
+      "cantidadMinPinches":1,
+      "cantidadMinPiedra":1,
+      "cantidadMinBonus":1,
+      "cantidadMaxAnillos":1,
+      "cantidadMaxCangrejos":1,
+      "cantidadMaxPece":1,
+      "cantidadMaxMoscas":1,
+      "cantidadMaxPinches":1,
+      "cantidadMaxPiedra":1,
+      "cantidadMaxBonus":1,
+      "cantidadTotalAnillos": 5,
+      "cantidadTotalCangrejos":3,
+      "cantidadTotalPece":5,
+      "cantidadTotalMoscas":5,
+      "cantidadTotalPinches":4,
+      "cantidadTotalPiedra":5,
+      "cantidadMinBonusAnillo": 1,
+      "cantidadMaxBonusAnillo": 1,
+      "cantidadTotalBonusAnillo": 1,
+      "cantidadMinEscudo": 0,
+      "cantidadMaxEscudo": 0,
+      "cantidadTotalEscudo": 2,
+      "cantidadMinInvincibilidad": 0,
+      "cantidadMaxInvincibilidad": 0,
+      "cantidadTotalInvincibilidad": 1,
+      "escenario": {
+        "dimensiones": {
+          "ancho": 4095,
+          "alto": 800
+        },
+        "capas": [
+          {
+            "id": 1,
+            "index_z": 97,
+            "ruta_imagen": "images/bg.png"
+          },
+          {
+            "id": 2,
+            "index_z": 96,
+            "ruta_imagen": "images/bg3_small.jpg"
+          }
+        ],
+        "entidades": [
+          {
+            "id": 14,
+            "tipo": "piedra",
+            "color": "rojo",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 100,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 15,
+            "tipo": "piedra",
+            "color": "rojo",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 1200,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 16,
+            "tipo": "piedra",
+            "color": "rojo",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 400,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 17,
+            "tipo": "piedra",
+            "color": "rojo",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 150,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 18,
+            "tipo": "piedra",
+            "color": "rojo",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 600,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 19,
+            "tipo": "anillo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 700,
+              "y": 350
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 20,
+            "tipo": "anillo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 700,
+              "y": 350
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 21,
+            "tipo": "anillo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1700,
+              "y": 230
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 22,
+            "tipo": "anillo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 576,
+              "y": 350
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 23,
+            "tipo": "anillo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 700,
+              "y": 350
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 24,
+            "tipo": "pinche",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 478,
+              "y": 570
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 25,
+            "tipo": "pinche",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 600,
+              "y": 570
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 26,
+            "tipo": "pinche",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1400,
+              "y": 570
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 27,
+            "tipo": "pinche",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 500,
+              "y": 570
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 28,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 600,
+              "y": 300
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 29,
+            "tipo": "escudo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 850,
+              "y": 550
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 30,
+            "tipo": "escudo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1850,
+              "y": 555
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 500,
+            "tipo": "bonusAnillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 900,
+              "y": 515
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 1,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 630,
+              "y": 545
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 2,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 540,
+              "y": 545
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 3,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 610,
+              "y": 545
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 4,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 740,
+              "y": 545
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 5,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 800,
+              "y": 545
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 6,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2800,
+              "y": 450
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 7,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1600,
+              "y": 280
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 8,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1800,
+              "y": 350
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 9,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 400,
+              "y": 230
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 10,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 580,
+              "y": 190
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 11,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2850,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 12,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1100,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 13,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 750,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          }
+
+
+
+
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "cantidadMinAnillos":1,
+      "cantidadMinCangrejos":1,
+      "cantidadMinPece":1,
+      "cantidadMinMoscas":1,
+      "cantidadMinPinches":1,
+      "cantidadMinPiedra":1,
+      "cantidadMinBonus":1,
+      "cantidadMaxAnillos":1,
+      "cantidadMaxCangrejos":1,
+      "cantidadMaxPece":1,
+      "cantidadMaxMoscas":1,
+      "cantidadMaxPinches":1,
+      "cantidadMaxPiedra":1,
+      "cantidadMaxBonus":1,
+      "cantidadTotalAnillos": 5,
+      "cantidadTotalCangrejos":3,
+      "cantidadTotalPece":5,
+      "cantidadTotalMoscas":5,
+      "cantidadTotalPinches":4,
+      "cantidadTotalPiedra":5,
+      "cantidadMinBonusAnillo": 1,
+      "cantidadMaxBonusAnillo": 1,
+      "cantidadTotalBonusAnillo": 1,
+      "cantidadMinEscudo": 0,
+      "cantidadMaxEscudo": 0,
+      "cantidadTotalEscudo": 2,
+      "cantidadMinInvincibilidad": 0,
+      "cantidadMaxInvincibilidad": 0,
+      "cantidadTotalInvincibilidad": 1,
+      "escenario": {
+        "dimensiones": {
+          "ancho": 4095,
+          "alto": 800
+        },
+        "capas": [
+          {
+            "id": 1,
+            "index_z": 97,
+            "ruta_imagen": "images/bg.png"
+          },
+          {
+            "id": 2,
+            "index_z": 96,
+            "ruta_imagen": "images/bg3_small.jpg"
+          }
+        ],
+        "entidades": [
+          {
+            "id": 14,
+            "tipo": "piedra",
+            "color": "rojo",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 100,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 15,
+            "tipo": "piedra",
+            "color": "rojo",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 1200,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 16,
+            "tipo": "piedra",
+            "color": "rojo",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 400,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 17,
+            "tipo": "piedra",
+            "color": "rojo",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 150,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 18,
+            "tipo": "piedra",
+            "color": "rojo",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 70,
+              "alto": 80
+            },
+            "coordenada": {
+              "x": 600,
+              "y": 585
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 19,
+            "tipo": "anillo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 700,
+              "y": 350
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 20,
+            "tipo": "anillo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 700,
+              "y": 350
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 21,
+            "tipo": "anillo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1700,
+              "y": 230
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 22,
+            "tipo": "anillo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 576,
+              "y": 350
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 23,
+            "tipo": "anillo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 700,
+              "y": 350
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 24,
+            "tipo": "pinche",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 478,
+              "y": 570
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 25,
+            "tipo": "pinche",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 600,
+              "y": 570
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 26,
+            "tipo": "pinche",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 1400,
+              "y": 570
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 27,
+            "tipo": "pinche",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 100,
+              "alto": 100
+            },
+            "coordenada": {
+              "x": 500,
+              "y": 570
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 28,
+            "tipo": "invincibilidad",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 600,
+              "y": 300
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 29,
+            "tipo": "escudo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 850,
+              "y": 550
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 30,
+            "tipo": "escudo",
+            "color": "verde",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1850,
+              "y": 555
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 500,
+            "tipo": "bonusAnillo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 900,
+              "y": 515
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 1,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 630,
+              "y": 545
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 2,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 540,
+              "y": 545
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 3,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 610,
+              "y": 545
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 4,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 740,
+              "y": 545
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 5,
+            "tipo": "pece",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 50,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 800,
+              "y": 545
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 6,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2800,
+              "y": 450
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 7,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1600,
+              "y": 280
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 8,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1800,
+              "y": 350
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 9,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 400,
+              "y": 230
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 10,
+            "tipo": "mosca",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 75,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 580,
+              "y": 190
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 11,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 2850,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 12,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 1100,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          },
+          {
+            "id": 13,
+            "tipo": "cangrejo",
+            "color": "naranja",
+            "crop": {
+              "xCrop": 0,
+              "yCrop": 0
+            },
+            "dimensiones": {
+              "ancho": 60,
+              "alto": 60
+            },
+            "coordenada": {
+              "x": 750,
+              "y": 605
+            },
+            "ruta_imagen": "",
+            "index_z": 99
+          }
+
+
+
+
+        ]
+      }
+    }
+  ]
+}

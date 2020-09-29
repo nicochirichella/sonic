@@ -1,0 +1,25 @@
+-Definir estructura de mensaje servidor->cliente
+-Definir estructura de mensaje cliente->servidor
+#El servidor asigna los personajes a los clientes. Entonces, cuando un cliente toca una tecla
+el servidor le manda el id, la posx y posy del personaje que se le asigno para que lo mueva.
+
+#NO USAR EL PARSER() EN OTRO LADO QUE NO SEA EL CONSTRUCTOR DEL JUEGO
+
+#TESTEAR EL FALSO SERVIDOR MOVIENDO LOS PERSONAJES CADA CIERTO TIMER.
+
+-Aumentar el indexZ en 1 para el propio personaje de cada cliente
+
+###########MENSAJES####
+#El primer caracter es el id del tipo de mensaje
+#Cuando el cliente se conecta por primera vez el servidor el manda el ID.
+
+#Cuando todos los clientes se conectaron el servidor manda ALGO para que inicie el juego
+
+#AHORA
+-Modificar el servidor y cargarle la logica del loop del juego
+-Crear el mensaje una vez modificadas las cosas en el servidor para enviarlo
+-Modificar el parseer mensaje (con 5 coordenadas cada personaje)
+-Modificar como se setee el sprite
+-Modificar eventos ...
+
+#Mejorar evento "QUIETO" a "TECLA IZQUIERDA/DERECHA RELEASED"

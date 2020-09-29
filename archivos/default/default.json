@@ -1,0 +1,170 @@
+{
+	"ventana": {
+		"dimensiones": {
+			"ancho": 800,
+			"alto": 600
+		}
+	},
+	"configuracion": {
+		"vel_scroll": 30
+	},
+	"niveles": [
+		{
+			"id": 1,
+			"escenario": {
+				"dimensiones": {
+					"ancho": 1500,
+					"alto": 600
+				},
+				"capas": [
+					{
+						"id": 1,
+						"index_z": 98,
+						"ruta_imagen": "bg1.png"
+					},
+					{
+						"id": 2,
+						"index_z": 97,
+						"ruta_imagen": "bg2.jpg"
+					}
+				],
+				"entidades": [
+					{
+						"id": 7,
+						"tipo": "circulo",
+						"color": "amarillo",
+						"crop": {
+							"xCrop": 60,
+							"yCrop": 250
+						},
+						"dimensiones": {
+							"radio": 100
+							//"ancho": 155,
+							//"alto":100
+						},
+						"coordenada": {
+							"x": 50,
+							"y": 205
+						},
+						"ruta_imagen": "",
+						"index_z": 99
+					},
+					{
+						"id": 1,
+						"tipo": "rectangulo",
+						"color": "rojo",
+						"crop": {
+							"xCrop": 0,
+							"yCrop": 0
+						},
+						"dimensiones": {
+							"ancho": 95,
+							"alto": 120
+						},
+						"coordenada": {
+							"x": 128,
+							"y": 410
+						},
+						"ruta_imagen": "images/sonic_hd_sprite.png",
+						"index_z": 99
+					},
+					{
+						"id": 2,
+						"tipo": "rectangulo",
+						"color": "verde",
+						"crop": {
+							"xCrop": 30,
+							"yCrop": 710
+						},
+						"dimensiones": {
+							"ancho": 35,
+							"alto": 40
+						},
+						"coordenada": {
+							"x": 550,
+							"y": 300
+						},
+						"ruta_imagen": "images/sonic_hd_sprite.png",
+						"index_z": 99
+					},
+					{
+						"id": 3,
+						"tipo": "rectangulo",
+						"color": "amarillo",
+						"crop": {
+							"xCrop": 65,
+							"yCrop": 710
+						},
+						"dimensiones": {
+							"ancho": 40,
+							"alto": 40
+						},
+						"coordenada": {
+							"x": 600,
+							"y": 290
+						},
+						"ruta_imagen": "images/sonic_hd_sprite.png",
+						"index_z": 99
+					},
+					{
+						"id": 4,
+						"tipo": "rectangulo",
+						"color": "rojo",
+						"crop": {
+							"xCrop": 105,
+							"yCrop": 710
+						},
+						"dimensiones": {
+							"ancho": 35,
+							"alto": 40
+						},
+						"coordenada": {
+							"x": 650,
+							"y": 280
+						},
+						"ruta_imagen": "",
+						"index_z": 99
+					},
+					{
+						"id": 5,
+						"tipo": "rectangulo",
+						"color": "verde",
+						"crop": {
+							"xCrop": 30,
+							"yCrop": 710
+						},
+						"dimensiones": {
+							"ancho": 35,
+							"alto": 40
+						},
+						"coordenada": {
+							"x": 700,
+							"y": 270
+						},
+						"ruta_imagen": "",
+						"index_z": 99
+					},
+					{
+						"id": 6,
+						"tipo": "rectangulo",
+						"color": "verde",
+						"crop": {
+							"xCrop": 30,
+							"yCrop": 710
+						},
+						"dimensiones": {
+							"ancho": 35,
+							"alto": 40
+						},
+						"coordenada": {
+							"x": 1400,
+							"y": 300
+						},
+						"ruta_imagen": "images/sonic_hd_sprite.png",
+						"index_z": 99
+					}
+				]
+			}
+		}
+	]
+}

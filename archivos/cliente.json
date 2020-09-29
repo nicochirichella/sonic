@@ -1,0 +1,9 @@
+{
+  "conexion": {
+    "tipo": "cliente",
+    "puerto": 8888,
+    "ip_servidor": "10.0.0.10"
+//  "ip_servidor": "127.0.0.1"
+  }
+}
+
